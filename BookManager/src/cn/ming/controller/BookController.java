@@ -57,7 +57,8 @@ public class BookController {
 		model.addAttribute("pageIndex",pageIndex);
 		model.addAttribute("pageCount", pageCount);
 		
-		
+
+
 		return "index";
 	}
 	@RequestMapping("doRemove")
